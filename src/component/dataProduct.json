@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 12 Pro Max",
+        "screen": "OLED 6.7 inch Super Retina XDR",
+        "operator-system": "iOS 14",
+        "rear-camera": "3 camera 12 MP",
+        "front-camera": "12 MP",
+        "cpu": "Apple A14 Bionic",
+        "ram": "6 GB",
+        "rom": "128 GB",
+        "pin": "3687 mAh",
+        "price": 30990000,
+        "image": "./assets/images/product01.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Xiaomi Mi 11 Lite",
+        "screen": "AMOLED 6.55 inch Full HD+",
+        "operator-system": "Android 11",
+        "rear-camera": "Chính 64 MP & Phụ 8 MP, 5 MP",
+        "front-camera": "16 MP",
+        "cpu": "Snapdragon 732G",
+        "ram": "8 GB",
+        "rom": "128 GB",
+        "pin": "4250 mAh",
+        "price": 7590000,
+        "image": "./assets/images/product02.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Vivo Y12s",
+        "screen": "IPS LCD 6.51 inch HD+",
+        "operator-system": "Android 10",
+        "rear-camera": "Chính 13 MP & Phụ 2 MP",
+        "front-camera": "8 MP",
+        "cpu": "MediaTek Helio P35",
+        "ram": "3 GB",
+        "rom": "32 GB",
+        "pin": "5000 mAh",
+        "price": 2990000,
+        "image": "./assets/images/product03.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Iphone 12",
+        "screen": "OLED 6.1 inch Super Retina XDR",
+        "operator-system": "iOS 14",
+        "rear-camera": "2 camera 12 MP",
+        "front-camera": "12 MP",
+        "cpu": "Apple A14 Bionic",
+        "ram": "4 GB",
+        "rom": "64 GB",
+        "pin": "2815 mAh",
+        "price": 20390000,
+        "image": "./assets/images/product04.jpg"
+    }
+]
