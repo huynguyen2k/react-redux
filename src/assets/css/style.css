@@ -1,0 +1,77 @@
+.game-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: url("../images/background.png") no-repeat fixed center/cover;
+}
+.game-play__header {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #2ea043;
+}
+
+.play-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-area .select-btn {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  background-color: orangered;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  transition-property: transform;
+}
+.play-area .select-btn:hover {
+  background-color: #28B463;
+  transform: scale(1.1);
+}
+.play-area .random-dices {
+  padding: 32px;
+  border-radius: 8px;
+}
+.play-area .random-dices img {
+  width: 100px;
+}
+
+.result-area {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 32px;
+  color: slateblue;
+}
+
+.control-btn {
+  text-align: center;
+  margin-top: 32px;
+}
+.control-btn .play-game-btn {
+  display: inline-block;
+  color: white;
+  background-color: #2ea043;
+  border-radius: 6px;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+  transition-property: transform, background-color;
+}
+.control-btn .play-game-btn:hover {
+  transform: scale(1.2);
+  background-color: #28B463;
+}
+
+/*# sourceMappingURL=style.css.map */
