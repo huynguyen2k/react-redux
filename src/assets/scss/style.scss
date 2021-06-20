@@ -1,0 +1,147 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../images/background.jpg') no-repeat center / cover;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: 0.8;
+    }
+}
+
+.booking-ticket {
+    padding-bottom: 32px;
+
+    &__header {
+        font-size: 3rem;
+        font-weight: 700;
+        color: gold;
+        text-align: center;
+        padding: 32px 0;
+    }
+
+    &__line {
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        margin-bottom: 12px;
+        background-color: orange;
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    &__booking-table {
+        margin: 0 auto;
+
+        th {
+            color: gold;
+            font-size: 1.2rem;
+            
+        }
+        td, th {
+            padding: 8px;
+            font-weight: 600;
+
+            .booking-btn {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                color: black;
+                background-color: white;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+            .booked {
+                color: white;
+                background-color: crimson;
+                pointer-events: none;
+            }
+            .booking {
+                color: white;
+                background-color: #27AE60;
+            }
+        }
+    }
+
+    &__booking-list {
+        margin-top: 32px;
+        
+        .heading {
+            font-size: 2rem;
+            font-weight: 600;
+            color: gold;
+            padding: 32px 0;
+            text-align: center;
+        }
+    }
+}
+
+.note {
+    &-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .label {
+            width: 35px;
+            height: 35px;
+            border-radius: 4px;
+
+            &-booked {
+                background-color: crimson;
+            }
+            &-booking {
+                background-color: #27AE60;
+            }
+            &-unbooked {
+                background-color: white;
+            }
+        }
+        .value {
+            font-size: 1.2rem;
+            color: white;
+            font-weight: 500;
+            margin-left: 16px;
+        }
+    }
+}
+
+.booking-table {
+    width: 100%;
+    margin-top: 32px;
+
+    th {
+        color: white;
+        font-size: 1.1rem;
+    }
+    td {
+        color: gold;
+
+        .abort-btn {
+            font-size: 1.2rem;
+            color: crimson;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+    }
+    th, td {
+        font-weight: 700;
+        border: 1px solid gray;
+        padding: 12px 16px;
+    }
+}
